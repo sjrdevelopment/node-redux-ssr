@@ -39,7 +39,7 @@ const handleRender = (req, res) => {
 
   const preloadedState = {
     ...store.getState(),
-    trackerData: {
+    pageData: {
       items: [
         {
           name: 'server item 1',
