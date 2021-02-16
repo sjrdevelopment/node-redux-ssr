@@ -1,3 +1,1 @@
-# Habit Tracker - Days
-
-A day-by-day habit tracker heatmap
+# Node server with Redux and SSR
