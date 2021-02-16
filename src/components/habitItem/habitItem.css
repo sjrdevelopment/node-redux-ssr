@@ -1,0 +1,30 @@
+.habit-item {
+  color: green;
+}
+
+.master {
+  width: 100%;
+}
+
+table {
+  width: 100%;
+}
+
+.l0 {
+}
+
+.l1 {
+  background: #83d47c;
+}
+
+.l2 {
+  background: #58b94f;
+}
+
+.l3 {
+  background: #46913f;
+}
+
+td:last-child {
+  text-align: center;
+}

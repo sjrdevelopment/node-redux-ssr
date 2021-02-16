@@ -3,9 +3,13 @@ import './main.css'
 
 import AnotherComp from './anotherComp.js'
 
+import HabitItem from './habitItem'
+
 export default () => (
   <div>
-    <p className="main">Main component</p>
+    <p className="main">Habit Tracker - Days</p>
     <AnotherComp />
+
+    <HabitItem />
   </div>
 )

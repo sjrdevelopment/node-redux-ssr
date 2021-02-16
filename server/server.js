@@ -37,20 +37,33 @@ const handleRender = (req, res) => {
     </Provider>
   )
 
+  /* TODO:
+
+    1. Connect to remote DynamoDB
+    2. Populate DB with records
+      2.1 Table for habits
+      2.2 Table for date based records, datetime format
+      2.3 Authentication details
+    3. Pull in habit names
+    4. Pull in last 2 weeks' dates
+    5. Format data for display
+
+    Next: interaction for adding/removing habits
+  */
   const preloadedState = {
     ...store.getState(),
     pageData: {
       items: [
         {
-          name: 'server item 1',
+          name: 'Running',
           history: getLast2Weeks(),
         },
         {
-          name: 'server item 2',
+          name: 'Reading',
           history: getLast2Weeks(),
         },
         {
-          name: 'server item 3',
+          name: 'Projects',
           history: getLast2Weeks(),
         },
       ],
